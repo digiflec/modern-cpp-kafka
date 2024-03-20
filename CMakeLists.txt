@@ -30,6 +30,8 @@ if (NOT CMAKE_CXX_STANDARD)
 endif ()
 set(CMAKE_CXX_STANDARD_REQUIRED False)
 
+set(CPPKAFKA_ENABLE_TESTS OFF)
+set(BUILD_OPTION_DOC_ONLY OFF)
 
 #---------------------------
 # Check Dependencies
